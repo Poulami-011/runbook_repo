@@ -30,7 +30,7 @@ jobs:
            # webhook_type: 'json-extended'
            method: POST
            webhook_url: "https://77be02fb-a47f-4fae-9136-8ebc849e4a0f.webhook.eus.azure-automation.net/webhooks?token=fi25gGvi2QvUJUutYUuERgyJzsBrVmAoeF7Euu3GwQk%3d"
-           webhook_secret: "!polu@123"
+           #webhook_secret: "!polu@123"
            data: ${{secrets.RUNBOOK_CREDENTIALS}}
 
       
