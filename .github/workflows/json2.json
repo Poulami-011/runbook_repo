@@ -1,7 +1,7 @@
 {
   "id": "f0b7f13f-dc88-485e-b498-c78122067260",
   "ResourceGroup": "rg-msazurektdemo-poulami",
-  "storageAccount": "rgmsazurektdemopoulb5da",
+  "storageAccount": "demostrorageaccount123",
   "keyName": "private-cert1",
   "keyversion": "6d07a1b4a49045aea88d0ef96bf83ca5",
   "vaultname": "keyvault123456",
