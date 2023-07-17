@@ -1,0 +1,61 @@
+{
+  "id": "f0b7f13f-dc88-485e-b498-c78122067260",
+  "ResourceGroup": "rg-msazurektdemo-poulami",
+  "storageAccount": "rgmsazurektdemopoulb5da",
+  "keyName": "private-cert1",
+  "keyversion": "6d07a1b4a49045aea88d0ef96bf83ca5",
+  "vaultname": "keyvault123456",
+  "blob": "AS2-AIS-AMER-Non-Production-v1.cer",
+  "ContainerName": "public-cert1",
+
+  "agreements": [
+    {
+      "blob1": "application.json",
+      "ContainerName1": "myfile",
+      "agreementName": "agreement1",
+      "agreementType": "AS2",
+      "GuestPartner": "B",
+      "HostPartner": "A",
+      "GuestIdentityQualifier": "AS2Identity",
+      "GuestIdentityQualifierValue": "Receiver",
+      "HostIdentityQualifier": "AS2Identity",
+      "HostIdentityQualifierValue": "Sender"
+    }
+  ],
+
+
+  "partners": [
+    {
+
+      "patner": "A",
+
+      "businessIdentities": {
+
+
+
+        "qualifier": "AS2Identity",
+
+        "value": "Sender"
+
+      }
+
+    },
+
+    {
+
+      "patner": "B",
+
+      "businessIdentities": {
+
+
+
+        "qualifier": "AS2Identity",
+
+        "value": "Receiver"
+
+      }
+    }
+
+  ]
+
+}
