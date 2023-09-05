@@ -54,6 +54,20 @@
         "value": "Receiver"
 
       }
+    },
+    {
+
+      "patner": "C",
+
+      "businessIdentities": {
+
+
+
+        "qualifier": "AS2Identity",
+
+        "value": "Receiver"
+
+      }
     }
 
   ]
